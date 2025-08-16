@@ -1,20 +1,8 @@
 {
-  "version": 2,
-  "name": "aipromptstudio-updates",
-  "functions": {
-    "api/check.js": {
-      "runtime": "nodejs18.x",
-      "maxDuration": 10
-    }
-  },
   "rewrites": [
     {
-      "source": "/api/check",
-      "destination": "/api/check.js"
-    },
-    {
       "source": "/health",
-      "destination": "/api/health.js"
+      "destination": "/api/health"
     }
   ],
   "headers": [
@@ -32,19 +20,8 @@
         {
           "key": "Access-Control-Allow-Headers",
           "value": "Content-Type, Authorization, X-Requested-With"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "s-maxage=60, stale-while-revalidate"
         }
       ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/api/check",
-      "permanent": false
     }
   ]
 }
