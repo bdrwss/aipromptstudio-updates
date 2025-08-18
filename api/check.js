@@ -43,7 +43,7 @@ export default function handler(req, res) {
   // 版本配置 - 在这里配置最新版本信息
   const LATEST_VERSION = {
     version: "1.2.0",
-    download_url: "https://github.com/bdrwss/AI-Prompt-Studio-No.1/releases/download/v1.2.0/AI_Prompt_Studio_v1.2.0_Setup.exe",
+    download_url: "https://github.com/bdrwss/aipromptstudio-releases/releases/download/v1.2.0/AI_Prompt_Studio_v1.2.0_Setup.exe",
     file_size: 89416926, // 89.4MB，根据实际文件大小修改
     checksum: "sha256:01A2657BF3E136BBC8C7BD8785FD70D37658EAD842891CBA378A8ACB525C1777", // 实际文件的SHA256
     release_notes: "🚀 AI Prompt Studio v1.2.0\n\n✨ 新功能:\n- 新增功能和改进\n- 优化用户界面\n- 提升性能和稳定性\n\n🐛 修复:\n- 修复若干已知问题\n- 提升系统稳定性\n- 优化更新机制",
@@ -52,7 +52,7 @@ export default function handler(req, res) {
     release_date: "2025-01-18T10:00:00Z",
     download_mirrors: [
       // 备用下载地址（可选）
-      "https://github.com/bdrwss/AI-Prompt-Studio-No.1/releases/download/v1.2.0/AI_Prompt_Studio_v1.2.0_Setup.exe"
+      "https://github.com/bdrwss/aipromptstudio-releases/releases/download/v1.2.0/AI_Prompt_Studio_v1.2.0_Setup.exe"
     ]
   };
 
