@@ -45,7 +45,7 @@ export default function handler(req, res) {
     version: "1.2.0",
     download_url: "https://github.com/bdrwss/aipromptstudio-releases/releases/download/v1.2.0/AI_Prompt_Studio_v1.2.0_Setup.exe",
     file_size: 89416926, // 89.4MB，根据实际文件大小修改
-    checksum: "sha256:01a2657bf3e136bbc8c7bd8785fd70d37658ead842891cba378a8acb525c1777", // 实际文件的SHA256
+    checksum: "01a2657bf3e136bbc8c7bd8785fd70d37658ead842891cba378a8acb525c1777", // 实际文件的SHA256（不带前缀）
     release_notes: "🚀 AI Prompt Studio v1.2.0\n\n✨ 新功能:\n- 新增功能和改进\n- 优化用户界面\n- 提升性能和稳定性\n\n🐛 修复:\n- 修复若干已知问题\n- 提升系统稳定性\n- 优化更新机制",
     force_update: true,  // 强制更新
     min_version: "1.0.0", // 最低支持版本
